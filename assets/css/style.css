@@ -1,0 +1,204 @@
+@font-face{
+	font-family: poppins;
+	src: url(../fonts/poppins.ttf);
+}
+
+*{
+	font-family: poppins !important;
+	scroll-behavior: smooth !important;
+}
+
+.vh5{
+	height: 5vh;
+	position: relative;
+}
+
+.vh10{
+	height: 10vh;
+	position: relative;
+}
+
+.vh20{
+	height: 20vh;
+	position: relative;
+}
+
+.vh50{
+	height: 50vh;
+	position: relative;
+}
+
+.vh100{
+	height: 100vh;
+	position: relative;
+}
+
+.font-200{
+	font-size: 150px !important;
+}
+
+.bg-blue{
+	background: #377FFD !important;
+}
+
+.text-blue{
+	color: #377FFD !important;
+}
+
+.bg-black{
+	background: #1F262C !important;
+}
+
+.box-carousel {
+	background-position: 50% 50% !important;
+	width: 100% !important;
+	height: 100vh !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+}
+
+.box-carousel::after{
+	content:"";
+	background: linear-gradient(20deg , #5C258Dab,#4389A2ab);
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*login page*/
+
+.box-login {
+	background-position: 50% 50% !important;
+	width: 100% !important;
+	min-height: 100vh !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+}
+
+.box-login::before{
+	content:"";
+	background: linear-gradient(20deg , #5C258Dab,#4389A2ab);
+	position: fixed;
+	width: 100%;
+	min-height: 100vh !important;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*Register page*/
+
+
+
+/*gallery*/
+
+.grid-item{
+	height: ;
+	width: 40vw;
+	overflow: hidden;
+}
+
+.modal-gallery{
+	position: fixed;
+	display: none;
+	z-index: 999999;
+	top: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+.show-gallery {
+
+	height: 100vh;
+	width: 100%;	background: rgba(0,0,0,0.7);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.show-gallery > img {
+	max-height: 90vh;
+	max-width: 90vw;
+}
+
+/*cekkelulusanpage*/
+
+.box-cekkelulusan {
+	background-position: 50% 50% !important;
+	width: 100% !important;
+	min-height: 100vh !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+}
+
+.box-cekkelulusan::before{
+	content:"";
+	background: linear-gradient(20deg , #5C258Dab,#4389A2ab);
+	position: fixed;
+	width: 100%;
+	min-height: 100vh !important;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.download-cek{
+	transition: .5s ease-in !important;
+}
+
+/*endcekkelulusanpage*/
+
+/*artikelpage*/
+.bg-artikel{
+	max-height: 60vh;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.bg-artikel::before{
+	content: "";
+	background: linear-gradient(0deg , rgba(0,0,0,1) , rgba(0,0,0,.3));
+	height: 60vh;
+	width: 100%;
+	position: absolute;
+}
+
+.info-artikel{
+	left: 10px;
+	bottom: 0px;
+}
+
+.frame-ppartikel{
+	width: 35px;
+	height: 35px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+
+/*endartikelpage*/
+
+/*ppbdpage*/
+
+.bgppbdgra {
+	background-position: 50% 50% !important;
+	width: 100% !important;
+	min-height: 100vh !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+}
+
+.bgppbdgra::before{
+	content:"" !important;
+	background: linear-gradient(20deg , #5C258Dab,#4389A2ab) !important;
+	position: fixed !important;
+	width: 100% !important;
+	min-height: 100vh !important !important;
+	background-attachment: fixed !important;
+	background-size: cover !important;
+}
+
+/*endppbdpage*/
